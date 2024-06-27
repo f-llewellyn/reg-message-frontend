@@ -1,10 +1,14 @@
 <script>
-  import AppBar from "$lib/components/appBar/AppBar.svelte";
-import "../app.css";
-  export const ssr = false;
+	import AppBar from "$lib/components/AppBar/AppBar.svelte";
+	import "../app.css";
+	export const ssr = false;
 </script>
 
-<div>
-    <slot />
-    <AppBar />
+<div class="relative min-h-[100dvh] pt-8 pb-[86px]">
+	<div class="">
+		<slot />
+	</div>
+	<div class="fixed bottom-0 w-full">
+		<AppBar />
+	</div>
 </div>

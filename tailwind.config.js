@@ -2,6 +2,9 @@
 export default {
 	content: ["./src/**/*.{html,js,svelte,ts}"],
 	theme: {
+		container: {
+			center: true,
+		},
 		extend: {
 			colors: {
 				"dark-primary": "#202639",
@@ -12,6 +15,7 @@ export default {
 				"light-text": "#222222",
 				"seen-text": "#888888",
 				brand: "#22C55E",
+				plate: "#FFDD00",
 			},
 		},
 	},
