@@ -1,7 +1,6 @@
 <script>
-	import AppBar from "$lib/components/AppBar/AppBar.svelte";
+	import AppBar from "$lib/components/appBar/AppBar.svelte";
 	import "../app.css";
-	export const ssr = false;
 </script>
 
 <div class="relative min-h-[100dvh] pt-8 pb-[86px]">
